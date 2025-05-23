@@ -16,7 +16,7 @@
 
 - **Hardware**:
   - Microcontrolador ESP32 (ESP32-WROOM, ESP32-S3, etc.).
-  - DAC externo (opcional, como PCM5102) para mejorar la calidad de audio.
+  - DAC externo como Max98357.
 - **Software**:
   - Arduino IDE o PlatformIO con el framework Arduino-ESP32.
   - Biblioteca `driver/i2s_std.h` (incluida en el framework ESP32).
@@ -25,10 +25,7 @@
 ## Instalación
 
 1. **Descarga la librería**:
-   - Clona este repositorio o descárgalo como ZIP desde GitHub:
-     ```bash
-     git clone https://github.com/usuario/miniFmSynth.git
-     ```
+   
 2. **Instala en Arduino IDE**:
    - Copia la carpeta `miniFmSynth` al directorio `libraries` de tu Arduino IDE (usualmente en `~/Arduino/libraries`).
    - Reinicia el IDE para que reconozca la librería.
@@ -121,9 +118,6 @@ miniFmSynth/
 └── LICENSE          # Licencia del proyecto
 ```
 
-## Licencia
-
-Este proyecto está licenciado bajo la **MIT License**. Consulta el archivo `LICENSE` para más detalles.
 
 ## Contribuciones
 
